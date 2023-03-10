@@ -3,9 +3,9 @@ import openai
 import gradio as gr
 import requests
 
-openai.api_key = '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'
+openai.api_key = 'API-KEY'
 
-API_URL = "https://api-inference.huggingface.co/models/google/tapas-base-finetuned-wtq"
+#API_URL = "https://api-inference.huggingface.co/models/google/tapas-base-finetuned-wtq"
 HEADERS = {"Authorization": "Bearer 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"}
 
 start_sequence = "\nAI:"
